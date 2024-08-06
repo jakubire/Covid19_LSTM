@@ -10,7 +10,7 @@ model = load_model('my_usa_cv19_model.keras')
 
 st.title("COVID-19 Weekly Prediction Using LSTM model")
 
-st.subheader("Enter the last three weeks data")
+st.subheader("Enter the last three weeks data: Contact Jacob @ jaakubire@gmail.com for anything concerning this prediction app")
 
 week1_active = st.number_input('Week 1 - Active cases: this is cumulative cases')
 week1_cases = st.number_input('week 1 - New cases')

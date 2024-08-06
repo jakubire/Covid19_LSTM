@@ -41,7 +41,7 @@ if st.button('Predict'):
 
     input_data_log = input_data_log.reshape(1, 3,3)
 
-    predition = model.predict(input_data_log)
+    prediction = model.predict(input_data_log)
     prediction = np.exp(prediction)
 
     st.subheader('Prediction for next week')

@@ -5,7 +5,7 @@ from keras.models import Sequential, load_model
 from keras.layers import LSTM, Dense, Input
 
 
-model = load_model('C:\Users\akubire.ja\Deep_learning\my_usa_cv19_model.keras')
+model = load_model('my_usa_cv19_model.keras')
 
 
 st.title("COVID-19 Weekly Prediction Using LSTM model")

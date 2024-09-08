@@ -12,18 +12,18 @@ st.title("COVID-19 Weekly Prediction APP Using LSTM model")
 
 st.subheader("In Each Input Slider, Enter The Last Three Weeks Data. For Any Information About How To Use This Prediction Tool, Contact Jacob Akubire @ jaakubire@gmail.com")
 
-week1_active = st.number_input('Week 1 - Active cases: this is cumulative cases')
-week1_cases = st.number_input('week 1 - New cases')
-week1_death = st.number_input('week 1 - New deaths')
+week1_active = st.number_input('Enter Week 1 - Active Cases: This is Cumulative Cases')
+week1_cases = st.number_input('Enter Week 1 - New Cases')
+week1_death = st.number_input('Enter Week 1 - New Deaths')
 
 
-week2_active = st.number_input('Week 2 - Active cases: this is cumulative cases')
-week2_cases = st.number_input('week 2 - New cases')
-week2_death = st.number_input('week 2 - New deaths')
+week2_active = st.number_input('Enter Week 2 - Active Cases: This is Cumulative Cases')
+week2_cases = st.number_input('Enter Week 2 - New Cases')
+week2_death = st.number_input('Enter Week 2 - New Deaths')
 
-week3_active = st.number_input('Week 3 - Active cases: this is cumulative cases')
-week3_cases = st.number_input('week 3 - New cases')
-week3_death = st.number_input('week 3 - New deaths')
+week3_active = st.number_input('Enter Week 3 - Active Cases: This is Cumulative Cases')
+week3_cases = st.number_input('Enter Week 3 - New Cases')
+week3_death = st.number_input('Enter Week 3 - New Deaths')
 
 
 if st.button('Predict'):

@@ -8,9 +8,10 @@ from keras.layers import LSTM, Dense, Input
 model = load_model('my_usa_cv19_model.keras')
 
 
-st.title("COVID-19 Weekly Prediction Using LSTM model")
+st.title("COVID-19 Weekly Prediction APP Using LSTM model")
 
-st.subheader("Enter the last three weeks data: Contact Jacob @ jaakubire@gmail.com for anything concerning this prediction app")
+st.subheader("In Each Input Slider, Enter The Last Three Weeks Data. For Any Information About How To
+Use This Prediction Tool, Contact Jacob Akubire @ jaakubire@gmail.com")
 
 week1_active = st.number_input('Week 1 - Active cases: this is cumulative cases')
 week1_cases = st.number_input('week 1 - New cases')
